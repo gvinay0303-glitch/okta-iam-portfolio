@@ -11,7 +11,9 @@ It demonstrates practical implementations of *SSO, MFA, Lifecycle Management, Ac
 - Multi-Factor Authentication (MFA) configuration  
 - Role-based access and session policies  
 - Active Directory (AD) integration with Okta  
-- Security best practices in IAM  
+- Security best practices in IAM
+- Application Integration using SAML 2.0 and OIDC (Okta as IdP/SP)
+- Automation of IAM tasks using Okta API & Postman/PowerShell
 
 ---
 
@@ -40,7 +42,17 @@ It demonstrates practical implementations of *SSO, MFA, Lifecycle Management, Ac
 5. *[Active Directory Integration](docs/AD_Integration.md)*  
    - Integrated Okta with Microsoft Active Directory  
    - Enabled password sync and AD agent setup  
-   - Tested user/group sync between AD and Okta  
+   - Tested user/group sync between AD and Okta
+6. .*[Application Integration](SAML/OIDC.md)* 
+	•	Integrated a sample web app with Okta using SAML 2.0 for Single Sign-On
+	•	Configured OIDC-based login for a modern cloud application
+	•	Tested end-to-end user authentication and attribute mapping
+
+7. *[Automation via Okta API](docs/Automation.md)* 
+	•	Automated user provisioning and de-provisioning using Okta API
+	•	Created Postman collections for user creation, MFA reset, and group assignment
+	•	Developed sample PowerShell scripts for bulk user onboarding
+	•	Improved efficiency by reducing manual admin effort
 
 ---
 
