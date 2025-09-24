@@ -1,65 +1,76 @@
-# Okta IAM Portfolio  
+# Okta IAM Portfolio
 
-Hands-on projects and demonstrations in *Identity & Access Management (IAM)*, focusing on:  
-- Okta Workforce Identity & Universal Directory  
-- Single Sign-On (SSO) with SAML/OIDC  
-- Multi-Factor Authentication (MFA) configuration  
-- Role-based access and session policies  
-- Active Directory (AD) integration with Okta  
-- Automation via Okta API  
-- Security best practices in IAM  
+This repository contains *hands-on Identity & Access Management (IAM) projects* using  
+*Okta Workforce Identity* and *Microsoft Entra (Azure AD)*.  
 
----
-
-## 📂 Skills Demonstrated  
-- Okta Workforce Identity, Universal Directory, Lifecycle Management  
-- Single Sign-On (SSO) with SAML/OIDC  
-- Multi-Factor Authentication (MFA) configuration  
-- Role-based access and session policies  
-- Active Directory (AD) integration with Okta  
-- Automation workflows using Okta API  
-- Security best practices in IAM  
+It demonstrates practical implementations of:
+- Single Sign-On (SSO) with SAML/OIDC
+- Multi-Factor Authentication (MFA)
+- Lifecycle Management (LCM)
+- Access Policies & Role-Based Access
+- Active Directory (AD) Integration
+- App Integrations & Okta Automation via APIs
 
 ---
 
-## 📂 Projects Included  
+## 🔑 Skills Demonstrated
+- Okta Workforce Identity & Universal Directory
+- SSO (SAML/OIDC) with session handling
+- MFA configuration (Okta Verify, SMS, Email factors)
+- Role-based access & conditional policies
+- Active Directory (AD) integration with Okta
+- Automated provisioning & de-provisioning
+- Okta API automation workflows
+- Security best practices in IAM
+
+---
+
+## 📂 Projects Included
+
 1. [SSO Setup](docs/SSO_Setup.md)  
    - Configured Okta as Identity Provider (IdP)  
-   - Implemented SAML-based authentication for a sample web app  
-   - Tested user login/logout with session handling  
+   - Implemented SAML-based authentication  
+   - Tested login/logout session handling  
 
 2. [MFA Configuration](docs/MFA_Config.md)  
-   - Enabled MFA for all workforce users  
-   - Configured Okta Verify, SMS, and Email factors  
-   - Enforced adaptive MFA policies based on user risk  
+   - Enabled MFA for workforce users  
+   - Configured Okta Verify, SMS, Email factors  
+   - Enforced adaptive MFA policies  
 
 3. [Lifecycle Management](docs/Lifecycle_mgmt.md)  
    - Automated user provisioning & de-provisioning  
-   - Configured role-based lifecycle rules  
-   - Integrated with HR-driven user identity changes  
+   - Configured JIT provisioning  
+   - Managed access based on lifecycle state  
 
 4. [Access Policies](docs/Access_Policies.md)  
-   - Role-based access policies  
-   - Session timeout and risk-based conditional access  
+   - Designed conditional access rules  
+   - Created role-based session policies  
+   - Implemented adaptive authentication  
 
 5. [Active Directory Integration](docs/AD_Integration.md)  
-   - Integrated Microsoft AD with Okta  
-   - Synced workforce identities with cloud apps  
+   - Integrated Okta with Microsoft AD  
+   - Synced users & groups between AD and Okta  
+   - Configured hybrid identity model  
 
 6. [App Integration (SAML/OIDC)](docs/App_Integration.md)  
-   - Configured enterprise SAML/OIDC applications  
-   - Tested SP/IdP initiated SSO flows  
+   - Configured SAML-based app integrations  
+   - Integrated OIDC apps for modern auth  
+   - Tested enterprise application access  
 
-7. [Automation via Okta API](docs/Okta_Automation.md)  
-   - Automated provisioning workflows with Okta API  
-   - Bulk user creation and license assignment  
+7. [Okta API Automation](docs/Okta_Automation.md)  
+   - Automated user creation/deactivation via Okta APIs  
+   - Implemented bulk user onboarding scripts  
+   - Scheduled automation for identity cleanup  
+
+---
+
+## 📅 Project Timeline
+See detailed work timeline here: [TIMELINE.md](TIMELINE.md)  
 
 ---
 
-## 📂 Project Timeline  
-📅 [View Full Timeline](TIMELINE.md)  
-
----
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
 
 ✅ This portfolio demonstrates *2 years of IAM hands-on experience (Sep 2023 – Aug 2025)*, covering SSO, MFA, AD Integration, Lifecycle Management, and Automation.
 
