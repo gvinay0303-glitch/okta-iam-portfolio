@@ -1,58 +1,67 @@
 # Okta IAM Portfolio  
 
-This repository contains *hands-on Identity & Access Management (IAM) projects* using *Okta Workforce Identity* and *Microsoft Entra (Azure AD)*.  
-It demonstrates practical implementations of *SSO, MFA, Lifecycle Management, Access Policies, and Active Directory Integration*.  
+Hands-on projects and demonstrations in *Identity & Access Management (IAM)*, focusing on:  
+- Okta Workforce Identity & Universal Directory  
+- Single Sign-On (SSO) with SAML/OIDC  
+- Multi-Factor Authentication (MFA) configuration  
+- Role-based access and session policies  
+- Active Directory (AD) integration with Okta  
+- Automation via Okta API  
+- Security best practices in IAM  
 
 ---
 
-## 🔑 Skills Demonstrated
+## 📂 Skills Demonstrated  
 - Okta Workforce Identity, Universal Directory, Lifecycle Management  
 - Single Sign-On (SSO) with SAML/OIDC  
 - Multi-Factor Authentication (MFA) configuration  
 - Role-based access and session policies  
 - Active Directory (AD) integration with Okta  
-- Security best practices in IAM
-- Application Integration using SAML 2.0 and OIDC (Okta as IdP/SP)
-- Automation of IAM tasks using Okta API & Postman/PowerShell
+- Automation workflows using Okta API  
+- Security best practices in IAM  
 
 ---
 
 ## 📂 Projects Included  
-
-1. *[SSO Setup](docs/SSO_Setup.md)*  
+1. [SSO Setup](docs/SSO_Setup.md)  
    - Configured Okta as Identity Provider (IdP)  
    - Implemented SAML-based authentication for a sample web app  
    - Tested user login/logout with session handling  
 
-2. *[MFA Configuration](docs/MFA_Config.md)*  
+2. [MFA Configuration](docs/MFA_Config.md)  
    - Enabled MFA for all workforce users  
    - Configured Okta Verify, SMS, and Email factors  
    - Enforced adaptive MFA policies based on user risk  
 
-3. *[Lifecycle Management](docs/Lifecycle_mgmt.md)*  
+3. [Lifecycle Management](docs/Lifecycle_mgmt.md)  
    - Automated user provisioning & de-provisioning  
-   - Integrated HR system (sample) with Okta for account creation  
-   - Applied Just-in-Time (JIT) provisioning  
+   - Configured role-based lifecycle rules  
+   - Integrated with HR-driven user identity changes  
 
-4. *[Access Policies](docs/Access_Policies.md)*  
-   - Created session and authentication policies  
-   - Enforced conditional access for risky logins  
-   - Configured role-based access rules for applications  
+4. [Access Policies](docs/Access_Policies.md)  
+   - Role-based access policies  
+   - Session timeout and risk-based conditional access  
 
-5. *[Active Directory Integration](docs/AD_Integration.md)*  
-   - Integrated Okta with Microsoft Active Directory  
-   - Enabled password sync and AD agent setup  
-   - Tested user/group sync between AD and Okta
-6. .*[Application Integration](SAML/OIDC.md)* 
-	•	Integrated a sample web app with Okta using SAML 2.0 for Single Sign-On
-	•	Configured OIDC-based login for a modern cloud application
-	•	Tested end-to-end user authentication and attribute mapping
+5. [Active Directory Integration](docs/AD_Integration.md)  
+   - Integrated Microsoft AD with Okta  
+   - Synced workforce identities with cloud apps  
 
-7. *[Automation via Okta API](docs/Automation.md)* 
-	•	Automated user provisioning and de-provisioning using Okta API
-	•	Created Postman collections for user creation, MFA reset, and group assignment
-	•	Developed sample PowerShell scripts for bulk user onboarding
-	•	Improved efficiency by reducing manual admin effort
+6. [App Integration (SAML/OIDC)](docs/App_Integration.md)  
+   - Configured enterprise SAML/OIDC applications  
+   - Tested SP/IdP initiated SSO flows  
+
+7. [Automation via Okta API](docs/Okta_Automation.md)  
+   - Automated provisioning workflows with Okta API  
+   - Bulk user creation and license assignment  
+
+---
+
+## 📂 Project Timeline  
+📅 [View Full Timeline](TIMELINE.md)  
+
+---
+
+✅ This portfolio demonstrates *2 years of IAM hands-on experience (Sep 2023 – Aug 2025)*, covering SSO, MFA, AD Integration, Lifecycle Management, and Automation.
 
 ---
 
