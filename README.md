@@ -1,47 +1,52 @@
-Okta IAM Portfolio
+# Okta IAM Portfolio  
 
-Hands-on projects and demonstrations in Identity & Access Management (IAM), focusing on:
-	•	Okta Workforce Identity
-	•	Single Sign-On (SSO)
-	•	Multi-Factor Authentication (MFA)
-	•	Lifecycle Management (LCM)
-	•	Active Directory (AD) Integration
+This repository contains *hands-on Identity & Access Management (IAM) projects* using *Okta Workforce Identity* and *Microsoft Entra (Azure AD)*.  
+It demonstrates practical implementations of *SSO, MFA, Lifecycle Management, Access Policies, and Active Directory Integration*.  
 
-⸻
+---
 
-🔑 Projects Included
+## 🔑 Skills Demonstrated
+- Okta Workforce Identity, Universal Directory, Lifecycle Management  
+- Single Sign-On (SSO) with SAML/OIDC  
+- Multi-Factor Authentication (MFA) configuration  
+- Role-based access and session policies  
+- Active Directory (AD) integration with Okta  
+- Security best practices in IAM  
 
-1. Okta SSO Integration with Applications
-	•	Configured Okta as an Identity Provider (IdP) for a sample web app.
-	•	Implemented SAML-based authentication flow.
-	•	Tested user login/logout with Okta session handling.
+---
 
-2. Multi-Factor Authentication (MFA) Policies
-	•	Enabled MFA for critical applications.
-	•	Configured SMS, Email, and Google Authenticator.
-	•	Applied conditional access policies for different user groups.
+## 📂 Projects Included  
 
-3. Lifecycle Management (LCM)
-	•	Automated user onboarding and offboarding.
-	•	Integrated with Active Directory (AD).
-	•	Configured Just-In-Time (JIT) provisioning.
+1. *[SSO Setup](docs/SSO_Setup.md)*  
+   - Configured Okta as Identity Provider (IdP)  
+   - Implemented SAML-based authentication for a sample web app  
+   - Tested user login/logout with session handling  
 
-4. Secure Policies & Session Management
-	•	Defined password policies and session timeout rules.
-	•	Applied device trust policies.
-	•	Configured adaptive authentication.
+2. *[MFA Configuration](docs/MFA_Config.md)*  
+   - Enabled MFA for all workforce users  
+   - Configured Okta Verify, SMS, and Email factors  
+   - Enforced adaptive MFA policies based on user risk  
 
-⸻
+3. *[Lifecycle Management](docs/Lifecycle_mgmt.md)*  
+   - Automated user provisioning & de-provisioning  
+   - Integrated HR system (sample) with Okta for account creation  
+   - Applied Just-in-Time (JIT) provisioning  
 
-⚙ Tools & Technologies
-	•	Okta Workforce Identity Cloud
-	•	Active Directory (AD)
-	•	SAML, OIDC, SWA
-	•	GitHub (documentation & version control)
+4. *[Access Policies](docs/Access_Policies.md)*  
+   - Created session and authentication policies  
+   - Enforced conditional access for risky logins  
+   - Configured role-based access rules for applications  
 
-  ## 📜 About Me  
-I am an *Identity & Access Management (IAM) Security Professional* specializing in *Okta Workforce Identity, SSO, MFA, and Lifecycle Management*.  
-This repository highlights my practical experience in *securing authentication, access management, and user lifecycle automation*.  
+5. *[Active Directory Integration](docs/AD_Integration.md)*  
+   - Integrated Okta with Microsoft Active Directory  
+   - Enabled password sync and AD agent setup  
+   - Tested user/group sync between AD and Okta  
+
+---
+
+## 📌 About This Portfolio  
+This portfolio is part of my journey as an *Identity & Access Management (IAM) professional, showcasing **practical projects* that demonstrate my ability to implement *enterprise-grade identity solutions*.  
+
 
 📧 Contact: gvinay0303@gmail.com  
 🔗 LinkedIn:https://www.linkedin.com/in/vinay-g-8290b8385/
