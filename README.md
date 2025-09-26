@@ -72,6 +72,14 @@ See detailed work timeline here: [TIMELINE.md](TIMELINE.md)
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE).
 
+---
+
+## 📊 Project Timelines
+
+- [Report 1: SSO, MFA, Access Policies, App Integration](reports/Timeline_SSO_MFA_Access_App.md)
+- [Report 2: Lifecycle, SCIM, AD, API Automation](reports/Timeline_Lifecycle_SCIM_AD_API.md)
+
+
 ✅ This portfolio demonstrates *2 years of IAM hands-on experience (Sep 2023 – Aug 2025)*, covering SSO, MFA, AD Integration, Lifecycle Management, and Automation.
 
 ---
