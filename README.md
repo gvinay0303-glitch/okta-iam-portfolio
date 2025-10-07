@@ -106,3 +106,6 @@ This portfolio is part of my journey as an *Identity & Access Management (IAM) p
 
 📧 Contact: gvinay0303@gmail.com  
 🔗 LinkedIn:https://www.linkedin.com/in/vinay-g-8290b8385/
+
+📁 [View Freelance Project Proofs](Freelance_Proofs_Documents.md)
+
