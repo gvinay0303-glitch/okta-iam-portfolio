@@ -60,7 +60,23 @@ It demonstrates practical implementations of:
 7. [Okta API Automation](docs/Okta_Automation.md)  
    - Automated user creation/deactivation via Okta APIs  
    - Implemented bulk user onboarding scripts  
-   - Scheduled automation for identity cleanup  
+   - Scheduled automation for identity cleanup
+## Okta API Automation
+
+This section demonstrates how I used Okta APIs to automate user management and identity operations.
+
+### Steps Implemented
+1. Created an API token in Okta Admin Console.
+2. Integrated Okta with Postman using the API token.
+3. Configured environment variables for domain, userId, and API key.
+4. Executed GET /api/v1/users/{userId} to retrieve user details.
+5. Validated token usage and expiry date updates after API execution.
+
+### Proof of Work
+All steps are documented with screenshots in /docs/screenshots/okta_api_automation/.
+
+Example result:
+> Successfully retrieved user details using Okta API configured in Postman.
 
 ---
 
